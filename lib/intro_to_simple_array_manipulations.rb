@@ -13,7 +13,6 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  times(2) do
     array.pop()
-  end
+    
 end
