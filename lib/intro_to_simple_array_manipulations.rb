@@ -13,7 +13,10 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
+  new_array = []
   2.times do
-    array.pop()
+    popper = array.pop()
+    new_array.push(popper)
   end
+  new_array
 end
